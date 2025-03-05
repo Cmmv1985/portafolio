@@ -191,17 +191,11 @@ body {
     .header{
         padding: 10%;
     }    
-
-    .header__menu {
-        justify-content: center;
-    }
     
-    .presentacion__imagen {
-        padding: 10% 0 0 0;
-
+    .presentacion {
+        flex-wrap: nowrap; /* coloca los cuadrados uno al lado del otro de forma vertical */
+        padding: 3% 10%;
+        /* margin: 10% 10%; agrega un margen para centrar los cuadrados en la pantalla - se reemplazó el margin por un padding ya que ahora tenemos un header */
+        width: 150%;
     }
-    
-    .contenido{
-        width: auto;
-    }    
 }
